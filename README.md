@@ -359,3 +359,56 @@
 > ```
 > ps aux | grep "UserName"
 > ```
+
+## Категория: Bash
+
+![Task_45](docs/images/Bash/Task_45.png)
+
+> Код [файл `scripts/ehw.sh`]:
+> ```
+> #!/bin/sh
+>
+> echo "Hello World!"
+> ```
+> 
+> P.S. 
+>
+> Чтобы запустить этот скрипт в терминале установим ему права с помощью команды `chmod`:
+> ```
+> $ chmod 755 ehw.sh
+> ```
+> Затем запустим: 
+> ```
+> $ ./ehw.sh 
+> Hello World!
+> ```
+
+![Task_46](docs/images/Bash/Task_46.png)
+
+> Код [файл `scripts/existence.sh`]:
+> ```
+> #!/bin/sh
+>
+> path=""
+> object=""
+>
+> echo "Введите путь к файлу/директории [Если хотите искать в директории, в которой находитесь, введите просто . ]: "
+> read path
+> echo "Введите название объекта: "
+> read object
+> 
+> out=$(find $path -name "*$object*")
+> if [[ "$out" = "" ]]
+> then
+>   echo "Файл не найден!"
+> else
+>   echo $out
+> fi
+> ```
+
+![Task_48](docs/images/Bash/Task_48.png)
+
+> Answer:
+> 
+> Ссылка на гит репозиторий проекта, где консольное приложение используется как утилита:
+> - https://github.com/Tsygankov-Slava/Calculator
