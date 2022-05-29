@@ -60,7 +60,7 @@
 
 ### - Disk Usage
 
-![Task_6](docs/images/Disk Usage/Task_6.png)
+![Task_6](docs/images/Disk_Usage/Task_6.png)
 
 > Answer:
 > 
@@ -82,7 +82,7 @@
 > /dev/disk3s1    228Gi   21Gi   95Gi    18%  553607 2393071353    0%   /System/Volumes/Update/mnt1
 > ```
 
-![Task_7](docs/images/Disk Usage/Task_7.png)
+![Task_7](docs/images/Disk_Usage/Task_7.png)
 
 > Answer:
 > 
@@ -100,7 +100,7 @@
 > ```
 > P.S. Данная команда выведет размер всех файлов, а в конце и размер нужной нам директории
 
-![Task_8](docs/images/Disk Usage/Task_8.png)
+![Task_8](docs/images/Disk_Usage/Task_8.png)
 
 > Answer:
 > 
