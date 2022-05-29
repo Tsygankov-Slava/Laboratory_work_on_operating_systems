@@ -12,6 +12,7 @@
   - [GPU (optional)](#gpu-optional)
   - [Network](#network)
 - [Grep](#категория-grep)
+- [Bash](#категория-bash)
 
 ---
 
