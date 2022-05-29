@@ -11,7 +11,7 @@
   - [Disk Usage](#disk-usage)
   - [GPU (optional)](#gpu-optional)
   - [Network](#network)
-- [Grep](#категория:-grep)
+- [Grep](#категория-grep)
 
 ---
 
